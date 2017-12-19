@@ -1,0 +1,17 @@
+{
+  "name": "iconik-segments-generator",
+  "version": "1.0.0",
+  "description": "Iconik segments generator",
+  "main": "segments.js",
+  "scripts": {
+    "segments": "babel-node --presets es2015 index.js"
+  },
+  "author": "C3PablO",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.16.2",
+    "babel-cli": "6.24.1",
+    "babel-preset-es2015": "6.24.1",
+    "shakespeare-data": "2.5.0"
+  }
+}
