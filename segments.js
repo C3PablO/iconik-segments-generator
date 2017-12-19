@@ -71,7 +71,7 @@ if (token && appId && id) {
     }
 
     // url and headers
-    const url = `http://iconik.dev/API/assets/v1/assets/${id}/segments/`;
+    const url = `${host}/API/assets/v1/assets/${id}/segments/`;
     const headers = { 'Content-Type': 'application/json', 'App-ID': appId, 'Auth-Token': token };
 
     console.log(url);
